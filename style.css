@@ -64,6 +64,8 @@ body{
 
     padding-top: 40px;
 
+    padding-bottom: 20px;
+
     overflow: hidden;
 
 }
@@ -125,13 +127,13 @@ body{
 
     z-index: 1;
 
-    top: 65%;
+    top: 0%;
 
-    right: 280px;
+    right: 500px;
 
     transform: translateY(-35%);
 
-    width: 350px;
+    width: 150px;
 
 }
 
@@ -180,27 +182,37 @@ body{
 }
 
 @media(max-width: 970px){
-
     .top-banner-inner{
-
         flex-direction: column;
+        align-items: center; /* centers everything neatly */
+        padding: 10px 20px;
+    }
 
-        align-items: flex-start;
+    .site-title{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-        padding: 20px;
-
+    .site-title .main{
+        width: 80%; /* scales logo down */
+        max-width: 300px;
     }
 
     .site-title .sub{
-
-        width: 60%;
-
-        left: 0;
-
+        position: relative;
+        top: auto;
         right: auto;
-
+        transform: none;
+        width: 60%;
+        max-width: 200px;
+        margin-top: 10px;
     }
 
+    .google{
+        margin-top: 15px;
+        align-self: center;
+    }
 }
 
 /*_____________________________________________________________________________________________*/
