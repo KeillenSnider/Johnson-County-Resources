@@ -493,6 +493,68 @@ body{
 
 }
 
+.probation-intro{
+
+    padding: 16px 20px;
+
+    background-color: #ffffff;
+
+}
+
+.probation-intro p{
+
+    margin: 0 0 12px 0;
+
+    line-height: 1.5;
+
+    font-size: 20px;
+
+}
+
+.probation-intro p:last-child{
+
+    margin-bottom: 0;
+
+}
+
+.probation-band{
+
+    padding: 20px;
+
+    background-color: #7e93b3;
+
+    text-align: center;
+
+
+}
+
+.probation-band h3{
+
+    margin: 0 0 12px 0;
+
+    color: white;
+
+}
+
+.probation-band p{
+
+    margin: 0 0 6px 0;
+
+    color: white;
+
+    font-style: italic;
+
+    line-height: 1.5;
+
+    font-size: 20px;
+}
+
+.probation-band p:last-child{
+
+    margin-bottom: 0;
+
+}
+
 
 
 
