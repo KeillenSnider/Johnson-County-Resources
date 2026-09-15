@@ -1246,6 +1246,30 @@ body{
     margin: 0 0 10px 0;
  
 }
+
+.multi-service-intro{
+ 
+    max-width: 550px;
+ 
+    margin: 20px auto;
+ 
+    padding: 15px 20px;
+ 
+    background-color: #e8f0ff;
+ 
+    border: 2px solid #0b2a5d;
+ 
+    border-left: 8px solid #1a3fa3;
+ 
+    color: #0b2a5d;
+ 
+    text-align: center;
+ 
+    font-size: 17px;
+ 
+    font-weight: 600;
+ 
+}
 /*_____________________________________________________________________________________________*/
 
 .three-bars,
